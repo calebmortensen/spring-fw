@@ -2,9 +2,11 @@ package com.sf.springfw.game;
 
 public class GameRunner {
 	
-	MarioGame game;
+	//MarioGame game;
+	private GamingConsole game;
 	
-	public GameRunner(MarioGame game) {
+	//Constructor
+	public GameRunner(GamingConsole game) {
 		
 		this.game = game;
 	}
