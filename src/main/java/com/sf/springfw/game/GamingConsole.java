@@ -1,5 +1,6 @@
 package com.sf.springfw.game;
 
+
 public interface GamingConsole {
 
 	void up();

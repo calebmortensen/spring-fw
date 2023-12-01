@@ -1,19 +1,24 @@
 package com.sf.springfw.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+@Qualifier("SuperContraGameQualifier")
 public class SuperContraGame implements GamingConsole{
 
 	public void up() {
-		System.out.println("Up");
+		System.out.println("Super Contra - Up");
 	}
 	
 	public void down() {
-		System.out.println("Kneel");
+		System.out.println("Super Contra - Kneel");
 	}
 	
 	public void left() {
-		System.out.println("Go back");
+		System.out.println("Super Contra - Go back");
 	}
 	public void right() {
-		System.out.println("Shoot");
+		System.out.println("Super Contra - Shoot");
 	}
 }
