@@ -1,13 +1,10 @@
-package com.sf.springfw;
+package com.sf.springfw.game;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import com.sf.springfw.game.GameRunner;
-import com.sf.springfw.game.GamingConsole;
-import com.sf.springfw.game.PacManGame;
 
 @Configuration
 @ComponentScan
