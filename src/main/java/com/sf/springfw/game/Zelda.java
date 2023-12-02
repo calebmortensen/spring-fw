@@ -19,4 +19,8 @@ public class Zelda implements GamingConsole{
 	public void right() {
 		System.out.println("Zelda - Right");
 	}
+	
+	public void strike() {
+		System.out.println("Use Weapon");
+	}
 }
